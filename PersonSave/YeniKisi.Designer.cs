@@ -62,7 +62,7 @@
             // 
             // txtPersonAd
             // 
-            this.txtPersonAd.Location = new System.Drawing.Point(156, 77);
+            this.txtPersonAd.Location = new System.Drawing.Point(155, 81);
             this.txtPersonAd.Name = "txtPersonAd";
             this.txtPersonAd.Size = new System.Drawing.Size(100, 22);
             this.txtPersonAd.TabIndex = 1;
@@ -164,7 +164,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(301, 415);
+            this.ClientSize = new System.Drawing.Size(302, 401);
             this.Controls.Add(this.btnKisiKaydet);
             this.Controls.Add(this.btnCikis);
             this.Controls.Add(this.txtPersonTel);
@@ -182,7 +182,6 @@
             this.Name = "YeniKisi";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "YeniKisi";
-            this.Load += new System.EventHandler(this.YeniKisi_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

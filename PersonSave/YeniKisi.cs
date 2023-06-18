@@ -36,7 +36,7 @@ namespace PersonSave
                 string sehir = txtPersonSehir.Text;
                 string tel = txtPersonTel.Text;
 
-                string connectionString = "Server = DESKTOP-OVE5E20\\SQLEXPRESS; Database = PersonelDB; User = sa4; Password = 12345";
+                string connectionString = "Server = DESKTOP-OVE5E20\\SQLEXPRESS; Database = PersonelDB; User = sa4; Password = 123456";
                 SqlConnection sqlConnection = new SqlConnection(connectionString);
                 string command = $"INSERT INTO Person VALUES ('{id}', '{ad}', '{soyad}', '{acount}', '{sehir}', '{tel}')";
                 SqlCommand cmd = new SqlCommand(command, sqlConnection);
@@ -54,11 +54,6 @@ namespace PersonSave
         private void btnKisiKaydet_Click(object sender, EventArgs e)
         {
             KisiKaydet();
-        }
-
-        private void YeniKisi_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
